@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="gallery">
+    <ul class="cycle-slideshow"
+        data-cycle-fx="fade"
+        data-cycle-slides="li"
+        data-cycle-timeout="0"
+    >
+        <div class="cycle-prev">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                <path fill="#010101" d="M128,256L384,0L256,256l128,256L128,256z"/>
+            </svg>
+        </div>
+        <div class="cycle-next">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+                <path fill="#010101" d="M 384,256 128,0 256,256 128,512 384,256 Z"/>
+            </svg>
+        </div>
+        {% for gallery in site.data.galleries %}
+        {% for image in gallery.images %}
+        <li>
+            <div class="white-bg">
+                <a href="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}" data-lightbox="{{ gallery.id }}" title="{{ image.text }}">
+                    <img src="{{ site.baseurl }}{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ image.text }}">
+                </a>
+            </div>
+            <div class="img-info">
+                <h2>{{ image.text }}</h2>
+                <hr>
+                <p class="desc-art">{{image.tools}}<br/>
+                    {{image.time}}</p>
+                <p class="desc">{{image.desc}}</p>
+            </div>
+        </li>
+        {% endfor %}
+        {% endfor %}
+    </ul>
+</div>

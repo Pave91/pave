@@ -1,0 +1,18 @@
+<header class="header row">
+    <a href="{{ site.baseurl }}/">
+        <img src="{{ site.baseurl }}/img/logo.png" alt="Pave, pencil art">
+    </a>
+
+    <nav>
+        <ul>
+            {% for gallery in site.data.galleries %}
+            {% assign current = nil %}
+            {% if gallery.id == page.galleryid %}
+            {% assign current = 'active' %}
+            {% endif %}
+            <li class="{{current}}"><a href="{{ site.baseurl }}/{{ gallery.id }}">{{ gallery.id | capitalize }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+
+</header>

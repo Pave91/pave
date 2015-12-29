@@ -1,0 +1,180 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $bg-color url('/pave/img/bg.png');
+    font-family: $font-family;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.container {
+    width: 100%;
+    min-width: 1280px;
+}
+
+header,
+.main {
+    float: left;
+}
+
+header {
+    width: 35%;
+    text-align: center;
+}
+
+.main {
+    width: 65%;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid $hr-color;
+    margin: 15px 0;
+}
+
+nav {
+    li {
+        text-align: center;
+        font-size: 26px;
+        letter-spacing: 1px;
+        margin-bottom: 5px;
+
+        &.active {
+            a {
+                background: $menu-color ;
+                color: $light-color;
+            }
+        }
+
+        a {
+            color: $menu-color;
+            text-decoration: none;
+            padding: 5px 15px 10px;
+            display: inline-block;
+
+            &:hover {
+                background: $menu-color ;
+                color: $light-color;
+            }
+        }
+    }
+}
+
+.gallery {
+    display: table;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: $bg-img;
+    padding: 30px;
+    max-width: 1200px;
+    color: $light-color;
+    overflow: hidden;
+
+    ul {
+        max-height: 1000px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .white-bg {
+        display: table;
+        background: rgba(255, 255, 255, 0.9);
+        min-width: 800px;
+        min-height: 800px;
+        width: 100%;
+        margin-bottom: 15px;
+        position: relative;
+        top:0;
+        padding: 30px 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: white;
+    }
+
+    a {
+        text-align: center;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    p {
+        font-size: 18px;
+        width: 50%;
+    }
+
+    .desc-art {
+        float: left;
+    }
+
+    .desc {
+        float: right;
+        text-align: right;
+        font-size: 16px;
+    }
+
+    li {
+        list-style-type: none;
+        width: 100%;
+        max-width: 1200px;
+        position: relative;
+
+        img {
+            max-height: 800px;
+            display: inline-block;
+            margin-bottom: -5px;
+        }
+    }
+
+    .img-info {
+        display: table;
+        width: 100%;
+    }
+
+    .cycle-prev,
+    .cycle-next {
+        position: absolute;
+        top: 50%;
+        margin-top: -40px;
+        z-index: 1000;
+        cursor: pointer;
+
+        &:hover {
+            svg {
+                opacity: 1;
+            }
+        }
+    }
+
+    .cycle-prev {
+        left: 30px;
+    }
+
+    .cycle-next {
+        right: 30px;
+    }
+
+    svg {
+        width: 40px;
+        height: auto;
+        opacity: 0.5;
+
+        path {
+            fill: $bg-img;
+        }
+    }
+}

@@ -1,0 +1,142 @@
+- id: portraits
+  description: This is the first gallery
+  imagefolder: /photos/portraits
+  images:
+  - name: ville-color-2015-fb.png
+    thumb: thumb-3.jpg
+    text: Ville Valo
+    desc: Ville Valo is former member, singer and songwriter from metal band HIM
+    tools: Koh-i-Noor Mondeluz, Cretacolor Nero pencils 2-4
+    time: November-December 2015
+  - name: depp-fb.png
+    thumb: thumb-1.jpg
+    text: Johnny Depp
+    desc: Johnny Depp is mysterious actor well-know from Pirates of Carribean
+    tools: Cretacolor Nero pencils 2-4
+    time: April-May 2015
+  - name: dicaprio-fb.png
+    thumb: thumb-2.jpg
+    text: Leonardo DiCaprio
+    desc: Leonardo DiCaprio is famous actor
+    tools: Pencils, Faber-Castell 2H-6B
+    time: August 2015
+  - name: anne-fb.png
+    thumb: thumb-3.jpg
+    text: Anne Frank
+    desc: Anne Frank was jewish child who died in concentration camp closely before end of war.
+    tools: Cretacolor Nero pencils 2-4
+    time: October 2015
+  - name: gerardway-fb.png
+    thumb: thumb-3.jpg
+    text: Gerard Way
+    desc: Gerard Way is former member of alternative rock band My Chemical Romance
+    tools: Pencils, Faber-Castell 2H-6B
+    time: January 2014
+  - name: eyes-fb.png
+    thumb: thumb-3.jpg
+    text: Eyes of Gerard Way
+    desc: Gerard Way is former member of alternative rock band My Chemical Romance
+    tools: Pencils, Faber-Castell 2H-6B
+    time: February 2015
+  - name: hannesbraun-fb.png
+    thumb: thumb-3.jpg
+    text: Hannes Braun
+    desc: Hannes Braus is singer and songwriter of band Kissin' Dynamite. Picture is according to photo from Zlin show 2014
+    tools: Koh-i-noor Mondeluz
+    time: February 2015
+  - name: vin-fb.png
+    thumb: thumb-3.jpg
+    text: Vin Diesel
+    desc: Vin Diesel is an actor, well-know from Fast & Furious movie
+    tools: Cretacolor Nero pencils 2-4
+    time: September 2015
+  - name: samara-fb.png
+    thumb: thumb-3.jpg
+    text: Samara Morgan
+    desc: Main figure in The Circle movie
+    tools: Koh-i-Noor Mondeluz, water
+    time: September 2015
+  - name: matt-fb.png
+    thumb: thumb-2.jpg
+    text: M.Shadows
+    desc: Singer from metal band Avenged Sevenfold
+    tools: Pencils, Faber-Castell 2H-6B
+    time: January 2015
+- id: animals
+  description: This is even another gallery!
+  imagefolder: /photos/animals
+  images:
+  - name: vlk-fb.png
+    thumb: thumb-4.jpg
+    text: Wolf
+    desc:
+    tools: Pencils, Faber-Castell 2H-6B
+    time: February 2014
+  - name: sob-fb.png
+    thumb: thumb-4.jpg
+    text: Caribou
+    desc:
+    tools: Derwent pencils
+    time: December 2015
+- id: scenery
+  description: This is even another gallery!
+  imagefolder: /photos/scenery
+  images:
+  - name: halloween-mood-fb.png
+    thumb: thumb-4.jpg
+    text: Old shack among trees
+    desc:
+    tools: Pencils, Faber-Castell 2H-6B; Koh-i-Noor Mondeluz; Cretacolor 2,3; Faber-Castell micro pencil
+    time: October 2015
+- id: t-shirts
+  description: This is even another gallery!
+  imagefolder: /photos/tshirts
+  images:
+  - name: tshirt-kobra-fb.png
+    thumb: thumb-4.jpg
+    text: Cobra between branches
+    desc:
+    tools: Textil marker
+    time: December 2015
+  - name: sister-sin.jpg
+    thumb: thumb-4.jpg
+    text: Sister Sin logo
+    desc: Sister Sin is swedish band. Chains is own idea
+    tools: Centropen textil marker
+    time: Summer 2013
+  - name: frankenstein.jpg
+    thumb: thumb-4.jpg
+    text: Frankenstein
+    desc: Frankenstein is fiction figure from Mary Shelley novel
+    tools: Textil colors
+    time: May 2014
+  - name: 69eyes.jpg
+    thumb: thumb-4.jpg
+    text: The 69 Eyes logo
+    desc: The 69 Eyes is finnish band
+    tools: White textil color
+    time: May 2014
+  - name: kissin-dynamite.jpg
+    thumb: thumb-4.jpg
+    text: Kissin' Dynamite own motif
+    desc: Kissin' Dynamite is german band
+    tools: Textil marker
+    time: July 2013
+  - name: greenday.jpg
+    thumb: thumb-4.jpg
+    text: Green Day own motif
+    desc: This I made in occasion of Green Day show in Prague 2010
+    tools: White textil color
+    time: June 2010
+  - name: rasmus.jpg
+    thumb: thumb-4.jpg
+    text: The Rasmus with raven
+    desc: The Rasmus is finnish rock band
+    tools: Textil marker
+    time: About spring 2010
+  - name: skeleton-fb.jpg
+    thumb: thumb-4.jpg
+    text: Skeleton
+    desc:
+    tools: Textil marker
+    time: July 2015
