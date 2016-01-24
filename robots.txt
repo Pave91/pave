@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+# langauges Sitemap: http://uniesoudnichznalcu.cz/lang-cs/sitemap.xml
