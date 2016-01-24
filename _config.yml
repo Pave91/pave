@@ -1,9 +1,9 @@
 # Site settings
-title: Pave, pencil art
+title: Pave, drawn art
 email: pave@pave.rocks
 description: > # this means to ignore newlines until "baseurl:"
-  Photo presentation of pencil drawings and T-shirts drawn by hand. I draw portraits mostly but I'm trying next beautiful object.
-baseurl: "/pave" # the subpath of your site, e.g. /blog/
+  I draw portraits mainly by pencils, colored pencils. Most of faces are interesting people like musicians, singers, actors. You can also findanimals or drawn T-shirts. 
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pave.rocks" # the base hostname & protocol for your site
 
 # Build settings
