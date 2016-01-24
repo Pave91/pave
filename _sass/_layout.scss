@@ -9,6 +9,17 @@ body {
     background: $bg-color url('/pave/img/bg.png');
     font-family: $font-family;
 
+
+
+}
+
+::-moz-selection {
+    background: $menu-color;
+    color: $light-color;
+}
+::selection {
+    background: $menu-color;
+    color: $light-color;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,6 +81,38 @@ nav {
             }
         }
     }
+
+    .hr {
+        width: 100%;
+        height: 40px;
+
+        span {
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            background: $menu-color;
+            border-radius: 50%;
+            position: relative;
+
+            &:before,
+            &:after {
+                position: absolute;
+                top: 2px;
+                display: block;
+                content: '';
+                border-top: 1px solid $menu-color;
+                width: 80px;
+            }
+
+            &:before {
+                left: 20px;
+            }
+
+            &:after {
+                right: 20px;
+            }
+        }
+    }
 }
 
 .gallery {
@@ -84,7 +127,7 @@ nav {
     overflow: hidden;
 
     ul {
-        max-height: 1000px;
+        max-height: 800px;
         overflow: hidden;
         position: relative;
     }
@@ -93,7 +136,7 @@ nav {
         display: table;
         background: rgba(255, 255, 255, 0.9);
         min-width: 800px;
-        min-height: 800px;
+        min-height: 600px;
         width: 100%;
         margin-bottom: 15px;
         position: relative;
@@ -134,7 +177,7 @@ nav {
         position: relative;
 
         img {
-            max-height: 800px;
+            max-height: 600px;
             display: inline-block;
             margin-bottom: -5px;
         }
@@ -176,5 +219,33 @@ nav {
         path {
             fill: $bg-img;
         }
+    }
+}
+
+.post {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0 50px 50px;
+    margin: 100px 70px 20px;
+    max-width: 800px;
+    color: #63462F;
+
+    header {
+        width: 100%;
+    }
+
+    h1,
+    h2 {
+        color: #63462F;
+    }
+
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        text-shadow:1px 0px 0px #ffffff;
+    }
+
+    p {
+        margin-bottom: 10px;
+        font-size: 18px;
     }
 }
