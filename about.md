@@ -19,5 +19,5 @@ I love music so that's main reason why I like drawing musicians but it isn't con
 
 ##Do you have special wish?##
 
-If you like my work and you're thinking about something nice you would like to have drawn, just [write me](ask@pave.rocks), I believe we can find optimal style or expression for you or your friends.
+If you like my work and you're thinking about something nice you would like to have drawn, just [write me](mailto:ask@pave.rocks), I believe we can find optimal style or expression for you or your friends.
 
