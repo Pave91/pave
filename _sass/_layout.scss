@@ -8,9 +8,6 @@
 body {
     background: $bg-color url('/pave/img/bg.png');
     font-family: $font-family;
-
-
-
 }
 
 ::-moz-selection {
@@ -47,6 +44,18 @@ header {
 
 .main {
     width: 65%;
+
+    a {
+        color: $link-color;
+        -webkit-transition: all .4s; /* Safari */
+        transition: all .4s;
+
+        &:hover {
+            text-decoration: none;
+            background: $menu-color;
+            color: $light-color;
+        }
+    }
 }
 
 hr {
@@ -61,6 +70,12 @@ nav {
         font-size: 26px;
         letter-spacing: 1px;
         margin-bottom: 5px;
+        list-style-type: none;
+
+        svg {
+            width: 30px;
+            height: auto;
+        }
 
         &.active {
             a {
@@ -78,6 +93,17 @@ nav {
             &:hover {
                 background: $menu-color ;
                 color: $light-color;
+            }
+        }
+
+        &.icon {
+            float: left;
+
+
+            a {
+                &:hover {
+                    background: transparent;
+                }
             }
         }
     }
@@ -112,6 +138,35 @@ nav {
                 right: 20px;
             }
         }
+    }
+
+    .fb {
+        path {
+            fill: #3B5999;
+        }
+    }
+
+    .devart {
+        svg {
+            width: 20px;
+        }
+
+
+        path {
+            fill: #05cc47;
+        }
+    }
+
+    .pin {
+        path {
+            fill: #e3262e;
+        }
+    }
+
+    .share {
+        display: block;
+        width: 180px;
+        margin: 0 auto;
     }
 }
 
@@ -153,6 +208,10 @@ nav {
         height: 100%;
         display: table-cell;
         vertical-align: middle;
+
+        &:hover {
+            background: none;
+        }
     }
 
     p {
