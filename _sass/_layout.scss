@@ -8,6 +8,7 @@
 body {
     background: $bg-color url('/img/bg.png');
     font-family: $font-family;
+    font-size: 100%;
 }
 
 ::-moz-selection {
@@ -38,12 +39,17 @@ header,
 }
 
 header {
-    width: 35%;
+    width: 30%;
     text-align: center;
+
+    > a,
+    > nav {
+        margin-left: -70px;
+    }
 }
 
 .main {
-    width: 65%;
+    width: 70%;
 
     a {
         color: $link-color;
@@ -67,7 +73,7 @@ hr {
 nav {
     li {
         text-align: center;
-        font-size: 26px;
+        font-size: 1.4em;
         letter-spacing: 1px;
         margin-bottom: 5px;
         list-style-type: none;
@@ -215,7 +221,7 @@ nav {
     }
 
     p {
-        font-size: 18px;
+        font-size: 1.2em;
         width: 50%;
     }
 
@@ -226,7 +232,7 @@ nav {
     .desc {
         float: right;
         text-align: right;
-        font-size: 16px;
+        font-size: 1.1em;
     }
 
     li {
@@ -292,12 +298,18 @@ nav {
         width: 100%;
     }
 
+    h1 {
+        margin-bottom: 20px;
+    }
+
     h1,
-    h2 {
+    h2,
+    h3 {
         color: #63462F;
     }
 
-    h2 {
+    h2,
+    h3 {
         margin-top: 20px;
         margin-bottom: 15px;
         text-shadow:1px 0px 0px #ffffff;
@@ -305,6 +317,10 @@ nav {
 
     p {
         margin-bottom: 10px;
-        font-size: 18px;
+        font-size: 1.2em;
+    }
+
+    ul {
+        padding-left: 20px;
     }
 }
